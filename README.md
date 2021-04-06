@@ -1,1 +1,1 @@
-# -100-Days-od-code
+# -100-Days-of-code
