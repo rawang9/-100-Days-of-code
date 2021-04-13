@@ -7,7 +7,6 @@ guess=[]
 print(logo)
 for i in range(len(cpu)):
     guess.append("_")
-print(cpu)
 init=0
 flag=True
 hang=0
@@ -28,5 +27,5 @@ while flag!=False and cpu!=''.join(guess):
             flag=False
             print("Game over,you loose ...")
 if cpu==''.join(guess):\
-     print("you won the game  ",logo)
+     print("you won the game  \n\n",logo)
     
